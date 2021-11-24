@@ -16,7 +16,11 @@ targetCompatibility = 11
 dependencies {
     implementation "org.apache.kafka:kafka-streams:2.1.0"
 
+    implementation "org.apache.kafka:kafka-clients:2.8.0"
+
     implementation 'com.google.code.gson:gson:2.8.8'
 
     testImplementation "junit:junit:4.12"
+    testImplementation "org.apache.kafka:kafka-streams-test-utils:2.8.0"
+    testImplementation('org.jeasy:easy-random-core:5.0.0')
 }
