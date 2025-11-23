@@ -1,3 +1,5 @@
+# Basic Kafka Streams exercise with Kafka on localhost
+
 ## Commands
 
 ### Start zookeeper
